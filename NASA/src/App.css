@@ -1,0 +1,58 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  gap: 15px;
+}
+
+.content {
+  border-radius: 3%;
+  background-color: rgb(62, 62, 62);
+  width: 300vw;
+  height: 80vh;
+  padding-bottom: 5%;
+}
+
+.sidebar {
+  background-color: rgb(62, 62, 62);
+  border-radius: 3%;
+  width: 100vw;
+  height: auto;
+}
+
+img{
+  max-height: 50%;
+}
+
+.keyword-main {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.keyword {
+  background-color: rgb(110, 110, 145);
+  padding: 1%;
+}
+
+.banned-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  margin-left: 25%;
+  margin-right: 25%;;
+}
+
+.banned{
+  background-color: rgb(110, 110, 145);
+  border-radius: 5%;
+  padding: 5%;
+}
